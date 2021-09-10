@@ -1,8 +1,21 @@
+import { NavItems } from '../../Data/dataPages'
+import NavbarItems from '../items/NavbarItems/NavbarItems'
+
 function Navbar() {
   return (
-    <div>
-      <h2>navbar</h2>
-    </div>
+    <header>
+      <nav>
+        <ul>
+          {NavItems.map((item) => (
+            <NavbarItems
+              key={item.name + item.hrfe}
+              name={item.name}
+              hrfe={item.hrfe}
+            />
+          ))}
+        </ul>
+      </nav>
+    </header>
   )
 }
 
