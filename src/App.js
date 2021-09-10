@@ -1,9 +1,6 @@
 import './App.css'
 
 function App() {
-
-  cosnt b = "gg"
-
   return (
     <div className="App">
       <header className="App-header">
