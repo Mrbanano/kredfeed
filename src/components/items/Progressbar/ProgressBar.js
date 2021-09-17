@@ -1,20 +1,23 @@
 import './ProgressBar.css'
+import Step from '../Steps'
+
 function ProgressBar({ Steps }) {
-  return <section className="ProgressBar">
-  <div className="ProgressBar-container">
-    <div className="ProgressBar-content">
-        {Steps.map((item) => (
-            <p
-              className="NavBar-item"
-              key={item.name + item.hrfe}
-              hrfe={item.hrfe}
-              icon={item.icon}
-              enable={item.status}
-            >{item.name}</p>
+  return (
+    <section className="ProgressBar">
+      <div className="ProgressBar-container">
+        <div className="ProgressBar-content">
+          {Steps.map((item) => (
+            <Step
+              className="Steps-item"
+              key={`Step-item- ${item.label}`}
+              label={item.label}
+              status="fail"
+            />
           ))}
-    </div>
-  </div>
-  </section>
+        </div>
+      </div>
+    </section>
+  )
 }
 
 export default ProgressBar

@@ -1,0 +1,4 @@
+.CardForm {
+  inline-size: 100%;
+  background: var(--Background-cardForm);
+}

@@ -1,9 +1,7 @@
 .Main {
-  border: 2px solid red;
   inline-size: 100%;
 }
 .Main-content {
-  border: 2px solid black;
   display: flex;
   flex-direction: row;
 }

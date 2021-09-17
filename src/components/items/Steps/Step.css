@@ -1,0 +1,11 @@
+.Step-container {
+  margin-block-end: 20px;
+}
+
+.Step-content {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+}

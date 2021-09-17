@@ -69,15 +69,15 @@ export const Steps = [
 ]
 
 export const statusStep = {
-  Ready: {
+  ready: {
     name: 'ready',
     icon: './static/icons/status/done.svg',
   },
-  Actual: {
+  actual: {
     name: 'actual',
     icon: './static/icons/status/actual.svg',
   },
-  Fail: {
+  fail: {
     name: 'fail',
     icon: './static/icons/status/fail.svg',
   },

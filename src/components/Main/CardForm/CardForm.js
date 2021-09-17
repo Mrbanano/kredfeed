@@ -1,8 +1,10 @@
+import './CardForm.css'
+
 function CardForm() {
   return (
-    <div>
+    <section className="CardForm">
       <h2>form</h2>
-    </div>
+    </section>
   )
 }
 

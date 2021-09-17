@@ -11,7 +11,7 @@ function CardProgressBar() {
     <section className="CardProgressBar">
       <div className="CardPrgressBar-container">
         <div className="Card-ProgressBar-content">
-          <Logo Logo={icon} />
+          <Logo Logo={icon} Name={name} />
           <Progressbar Steps={Steps} />
         </div>
         <Ilustration ilustration={ilustration} name={name} />

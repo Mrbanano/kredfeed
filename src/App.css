@@ -1,13 +1,3 @@
-:root {
-  --primary: #f57c00;
-  --primary-shadow: #de560b;
-  --Background-cardProgressBar: #ffffff;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .App {
   inline-size: 99vw;
   block-size: 99vh;
