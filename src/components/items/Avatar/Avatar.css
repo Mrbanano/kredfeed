@@ -1,0 +1,21 @@
+.Avatar {
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+  margin-block-end: 60px;
+}
+.Avatar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Avatar-content {
+  inline-size: 50px;
+  block-size: 50px;
+}
+
+.Avatar-content > img {
+  inline-size: 100%;
+  block-size: 100%;
+  border-radius: 50%;
+}

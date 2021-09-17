@@ -1,0 +1,15 @@
+.CardProgressBar {
+  background-color: var(--Background-cardProgressBar);
+  border: 2px solid pink;
+  max-inline-size: 291px;
+  inline-size: 100%;
+}
+
+.CardPrgressBar-container {
+  border: 2px solid red;
+  margin-inline-start: 40px;
+  margin-block-start: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,27 @@
+.Logout {
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+  margin-block-start: 60px;
+}
+.Logout-container,
+.Logout-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logout-content {
+  inline-size: 45px;
+  block-size: 45px;
+}
+
+.Logout-link > img {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .Logout {
+    margin-block-start: 30px;
+  }
+}

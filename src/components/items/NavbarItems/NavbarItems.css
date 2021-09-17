@@ -1,0 +1,19 @@
+.NavbarItems-container {
+  margin-block-start: 30px;
+  margin-block-end: 30px;
+}
+
+.NavbarItems-item {
+}
+
+.NavbarItems-item-active {
+  align-self: flex-end;
+  width: 90%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-shadow);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}

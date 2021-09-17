@@ -1,6 +1,38 @@
+:root {
+  --primary: #f57c00;
+  --primary-shadow: #de560b;
+  --Background-cardProgressBar: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  inline-size: 99vw;
+  block-size: 99vh;
+  position: relative;
+}
+
+.App-container {
   border: 2px solid red;
   max-inline-size: 967px;
+  max-block-size: 95vh;
+  inline-size: 100%;
   margin-inline-start: auto;
   margin-inline-end: auto;
+}
+.App-content {
+  display: flex;
+}
+
+@media only screen and (min-width: 1200px) {
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .App-container {
+    overflow: hidden;
+  }
 }

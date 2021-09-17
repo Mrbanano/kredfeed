@@ -3,13 +3,17 @@ import NavBar from './components/NavBar'
 import Main from './components/Main'
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
+    <section className="App">
+      <section className="App-container">
+        <div className="App-content">
         <NavBar />
         <Main />
-      </header>
-    </div>
+        </div>
+      </section>
+    </section>
   )
 }
 
