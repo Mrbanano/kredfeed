@@ -1,4 +1,10 @@
 .CardForm {
   inline-size: 100%;
   background: var(--Background-cardForm);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.CardForm-container {
+  position: relative;
 }

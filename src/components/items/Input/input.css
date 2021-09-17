@@ -1,0 +1,60 @@
+.form {
+  margin-block: 40px;
+  width: 117px;
+  box-sizing: border-box;
+}
+.form-container {
+  position: relative;
+  height: 30px;
+}
+.form-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--Black);
+  border-radius: 0.6rem;
+  font: inherit;
+  font-size: inherit;
+  font-size: 16px;
+  outline: none;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 0.4rem;
+  padding-block-end: 0.4rem;
+  background: none;
+}
+
+.form-input:hover {
+  border-color: var(--primary);
+}
+.form-input:focus {
+  border-color: var(--primary);
+}
+
+.form-label {
+  position: absolute;
+  left: 1rem;
+  top: 0.8rem;
+  font: var(--Label);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: text;
+  padding-inline: 10px;
+  background: var(--Background-cardForm);
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in,
+    background 200ms ease-in;
+}
+
+.form-input:focus ~ .form-label {
+  top: -0.7rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
+
+.form-input:not(:placeholder-shown).form-input:not(:focus) + .form-label {
+  top: -0.7rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
