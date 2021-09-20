@@ -8,3 +8,9 @@
 .CardForm-container {
   position: relative;
 }
+
+.CardForm-content {
+  border: 2px solid red;
+  padding-block-start: 90px;
+  padding-inline-start: 63px;
+}

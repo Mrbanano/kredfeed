@@ -1,6 +1,6 @@
 import './input.css'
 
-function Input() {
+function Input({ name }) {
   return (
     <div className="form">
       <div className="form-container">
@@ -9,11 +9,11 @@ function Input() {
             className="form-input"
             type="text"
             name=""
-            id=""
+            id={name}
             placeholder=" "
           />
-          <label className="form-label" htmlFor="">
-            email
+          <label className="form-label" htmlFor={name}>
+            {name}
           </label>
         </div>
       </div>

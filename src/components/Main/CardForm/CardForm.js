@@ -1,12 +1,13 @@
-import Input from '../../items/Input'
+import General from '../../items/Forms/General/General'
 import './CardForm.css'
 
 function CardForm() {
   return (
     <section className="CardForm">
-      <h2>form</h2>
       <div className="CardForm-container">
-        <Input />
+        <div className="CardForm-content">
+          <General/>
+        </div>
       </div>
     </section>
   )

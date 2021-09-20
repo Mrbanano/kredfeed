@@ -1,0 +1,21 @@
+.Select {
+  border: 2px solid #000;
+  border-radius: 0.3rem;
+  inline-size: 30%;
+  block-size: 30px;
+}
+
+.Select > select {
+  border: 2px solid var(--black);
+  width: 100%;
+  height: 100%;
+  font: var(--label);
+}
+
+.Select > select:hover {
+  border: 2px solid var(--primary);
+}
+
+.Select > select::selection {
+  border: 2px solid var(--primary);
+}

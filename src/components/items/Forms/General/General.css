@@ -1,0 +1,31 @@
+.General {
+  border: 2px solid black;
+  max-inline-size: 377px;
+}
+
+.General-section-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-inline-size: 377px;
+}
+
+.General-section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-inline-size: 377px;
+}
+
+.General-section-2 > .form {
+  inline-size: 47%;
+  block-size: 30px;
+}
+
+.General-section-2 > .Select {
+  margin-block-start: 10px;
+  margin-inline-start: 10px;
+  inline-size: 47%;
+  block-size: 40px;
+  border-radius: 0.3rem;
+}
